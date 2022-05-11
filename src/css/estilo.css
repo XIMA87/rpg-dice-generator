@@ -1,0 +1,68 @@
+body {
+
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#gerador {
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.btn {
+    margin-bottom: 50px;
+    width: 35%;
+}
+
+#aleatorios {
+    width: 70%;
+    height: 100%;
+    float: right;
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+    font-size: 300%;
+}
+
+#resultado {
+    color: white;
+    font-size: 800%;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    font-size: larger;
+    clear: both;
+    float: right;
+    margin-right: 10px;
+}
+
+@media(max-width:800px) {
+
+    #gerador {
+        float: none;
+        width: 100%;
+    }
+    #aleatorios {
+        float: none;
+        width: 100%;
+
+    }
+    footer {
+        text-align: center;
+        margin-top: 100px;
+    }
+}
