@@ -1,6 +1,13 @@
 let resultado = document.getElementById('resultado')
 let aleatorios = document.getElementById('aleatorios')
 
+let audio = new Audio('roll.mp3')
+
+function play() {
+    let audio = document.getElementById('roll');
+    audio.play();
+}
+
 
 function d4() {
     
@@ -8,6 +15,7 @@ function d4() {
 
     let aleatorios = document.getElementById('aleatorios').innerHTML = 'RESULTADO';
     resultado.innerHTML = d4;
+    play();
 }
 
 function d6() {
@@ -16,6 +24,7 @@ function d6() {
 
     let aleatorios = document.getElementById('aleatorios').innerHTML = 'RESULTADO';
     resultado.innerHTML = d6;
+    play();
 }
 
 function d8() {
@@ -24,6 +33,7 @@ function d8() {
 
     let aleatorios = document.getElementById('aleatorios').innerHTML = 'RESULTADO';
     resultado.innerHTML = d8;
+    play();
 }
 
 function d10() {
@@ -32,6 +42,7 @@ function d10() {
 
     let aleatorios = document.getElementById('aleatorios').innerHTML = 'RESULTADO';
     resultado.innerHTML = d10;
+    play();
 }
 
 function d12() {
@@ -40,6 +51,7 @@ function d12() {
 
     let aleatorios = document.getElementById('aleatorios').innerHTML = 'RESULTADO';
     resultado.innerHTML = d12;
+    play();
 }
 
 function d20() {
@@ -48,6 +60,7 @@ function d20() {
 
     let aleatorios = document.getElementById('aleatorios').innerHTML = 'RESULTADO';
     resultado.innerHTML = d20;
+    play();
 }
 
 function d100() {
@@ -56,4 +69,5 @@ function d100() {
 
     let aleatorios = document.getElementById('aleatorios').innerHTML = 'RESULTADO';
     resultado.innerHTML = d100;
+    play();
 }
