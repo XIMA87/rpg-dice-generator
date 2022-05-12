@@ -1,13 +1,10 @@
 let resultado = document.getElementById('resultado')
 let aleatorios = document.getElementById('aleatorios')
 
-let audio = new Audio('roll.mp3')
-
 function play() {
     let audio = document.getElementById('roll');
     audio.play();
 }
-
 
 function d4() {
     

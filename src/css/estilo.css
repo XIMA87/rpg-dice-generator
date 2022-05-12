@@ -22,7 +22,7 @@ header {
 }
 
 .btn {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     width: 35%;
 }
 
@@ -33,12 +33,12 @@ header {
     color: white;
     text-align: center;
     margin-top: 8%;
-    font-size: 300%;
+    font-size: 400%;
 }
 
 #resultado {
     color: white;
-    font-size: 800%;
+    font-size: 1000%;
     text-align: center;
 }
 
